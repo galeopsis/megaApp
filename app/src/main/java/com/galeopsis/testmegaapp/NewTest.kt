@@ -41,13 +41,7 @@ fun main() {
      val randomFruit = fruits.random()
      val aaa = sumInts(a, b, rnd, randomFruit)
      println(
-         "test: $a + $b = ${sumNumbers(a, b)}, ${
-             sumNumbers(
-                 a,
-                 b
-             )
-         } + $rnd (random) = $aaa, fruit = $randomFruit "
-     )
+         "test: $a + $b = ${sumNumbers(a, b)}, ${sumNumbers(a,b)} + $rnd (random) = $aaa, fruit = $randomFruit ")
      println("$a + $b = ${sumNumbers(a, b)}")*/
 
 //    println(isNotDigit('1')) // false, это всё-таки цифра
