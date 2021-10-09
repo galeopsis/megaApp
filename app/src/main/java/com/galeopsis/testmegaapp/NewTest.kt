@@ -46,6 +46,21 @@ fun main() {
 
 //    println(isNotDigit('1')) // false, это всё-таки цифра
 
+   /* val daysOfWeek =
+        listOf(
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        )
+    daysOfWeek.forEach { println(it) }
+
+    daysOfWeek.forEachIndexed { index, element ->
+        println("$index : $element")
+    }*/
 }
 
 /*fun sumNumbers(x: Int, y: Int): Int {
