@@ -58,8 +58,10 @@ fun main() {
         println("$index : $element")
     }*/
 
-    val xxx = TestClass("te3st")
+    val xxx = TestClass("test")
     xxx.printTest()
+    xxx.str = "ddd"
+    println("str is ${xxx.str} now")
 
 }
 //***********************fun section*******************************
