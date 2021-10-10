@@ -62,6 +62,7 @@ fun main() {
         println("$index : $element")
     }*/
 }
+//***********************fun section*******************************
 
 /*fun sumNumbers(x: Int, y: Int): Int {
     return x + y
