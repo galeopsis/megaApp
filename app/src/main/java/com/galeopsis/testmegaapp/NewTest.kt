@@ -63,6 +63,11 @@ fun main() {
     xxx.str = "ddd"
     println("str is ${xxx.str} now")
 
+    val yyy = TestClassSecond(2,3)
+    println(yyy.firstParam)
+    println(yyy.secondParam)
+    println("${yyy.firstParam},${yyy.secondParam}")
+
 }
 //***********************fun section*******************************
 
