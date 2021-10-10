@@ -1,7 +1,7 @@
 package com.galeopsis.testmegaapp
 
-class TestClass(
-    val test1: String
-) {
-    val test2: String = "ssss"
+class TestClass(private var str: String) {
+    fun printTest() {
+        println(if (str == "test") "good, it is test in test1" else "nifiga!!!")
+    }
 }

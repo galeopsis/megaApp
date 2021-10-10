@@ -15,9 +15,6 @@ fun main() {
     println(s.uppercase())
     println(s)*/
 
-    /*val xxx:TestClass
-    println(xxx.test2)*/
-
     /*val cats = listOf("Мурзик", "Барсик", "Рыжик")
     val cat = cats.getOrNull(1) ?: "Неизвестный котик"
     val cat2 = cats.getOrNull(4) ?: "Неизвестный котик"
@@ -32,7 +29,6 @@ fun main() {
     val ddd = "bellaDura"
     val rndSSS = (Math.random() * myArray.size).toInt()
     println("myArray: $sss array size is: ${myArray.size} rndIndex = ${if (rndSSS < 2) rndSSS else "$ddd $rndSSS"}") //myArray: sss array size is: 4 rndIndex = bellaDura 2*/
-
 
     /* val rnd = (1..10).random()
      val a = (1..10).random()
@@ -61,6 +57,10 @@ fun main() {
     daysOfWeek.forEachIndexed { index, element ->
         println("$index : $element")
     }*/
+
+    val xxx = TestClass("te3st")
+    xxx.printTest()
+
 }
 //***********************fun section*******************************
 
